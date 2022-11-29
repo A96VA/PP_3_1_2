@@ -14,7 +14,7 @@ public class UserServiceImpl implements UserService {
     private UserDAO userDAO;
 
     @Autowired
-    public void UserServiceImp (UserDAO userDAO) {
+    public UserServiceImpl(UserDAO userDAO) {
         this.userDAO = userDAO;
     }
 
